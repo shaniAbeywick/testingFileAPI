@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --body-background-color: black;
+}
+
+
+
+body {
+  /* background-color: var(--body-background-color); */
+  color: white;
+}
+
+.btnbg {
+  background-color: #3B424C;
+}
+
+.chat {
+  background-color: #1F2530;
+  border: 1px solid #3B424C;
+}
+
+.chatitem {
+  background-color: #101929;
+  border: 1px solid #3B424C;
+}
+
+.roboicon {
+  border-radius: 50%;
+  height: 35px;
+  display: inline;
+}
+
+.select,
+.input {
+  background-color: #20242D;
+  border: 1px solid #3B424C;
+  color: white;
+}
+
+.headerbg {
+  background-color: #101929;
+}
+
+.headefont {
+  color: #2196F3;
+}
+
+.bg-sidebar {
+  background-color: #0A1625;
+}
+
+.sidebar-border {
+  border-bottom: 1px solid #3B424C;
+}
+
+.sign-out {
+  color: #D32F2F;
+}
+
+.flex_width {
+  flex: 0 0 16em !important;
+}
+
+.dropdown1wrapper .w-fit {
+  transform: translate(23px, 145px) !important;
+}
+
+.centeritms {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
